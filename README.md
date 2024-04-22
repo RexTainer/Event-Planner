@@ -1,10 +1,12 @@
 # Event Planner
 A (Very) Simple CLI Event Planner written in Python
 
-#Installation
+## Installation
+
 Installation is very simple you just have to download `event-planner.py` and have Python 3.x installed.
 
-#Usage
+## Usage
+
 ```bash
 python3 event-planner.py
 ```
