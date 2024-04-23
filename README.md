@@ -93,3 +93,46 @@ Events:
     .......
     N. [EVENT #N]
 ```
+### Using the `add` command
+
+Using `add` requires you to multiple steps, firstly type `add` and press <kbd>enter</kbd>, then you will be met with the following question from the program,
+
+```
+Event Planner v[VERSION NUMBER]
+
+What do you want to do? (Enter 'help' for a list of commands)
+add 
+What is the name of the event? (Max 128 characters)
+[NAME]
+```
+
+Then you enter the name of the event you want to add, the name is limited to 128 characters (bytes), if this limit is exceeded it will be truncated and only the first 128 characters will be used. After that you will be propmpted to add a date to your event which will appear in the following manner,
+
+```
+Event Planner v[VERSION NUMBER]
+
+What do you want to do? (Enter 'help' for a list of commands)
+add 
+What is the name of the event? (Max 128 characters)
+[NAME]
+What is the date of the event? (MM-DD-YYYY HH:MM:SS AM/PM)
+[DATE]
+```
+The date of the event you provide _MUST_ be in the `MM-DD-YYYY HH:MM:SS AM/PM` format, otherwise the program will throw an error. After entering this the program will indicated that the event has been added successfully,
+```
+Event Planner v[VERSION NUMBER]
+
+What do you want to do? (Enter 'help' for a list of commands)
+add 
+What is the name of the event? (Max 128 characters)
+[NAME]
+What is the date of the event? (MM-DD-YYYY HH:MM:SS AM/PM)
+[DATE]
+Event added!
+```
+
+### Using the `edit` command
+Using the `edit` command also requires multiple steps, firstly you must type `edit` and then press <kbd>enter</kbd>, then the program will reply with the following,
+```
+
+```
